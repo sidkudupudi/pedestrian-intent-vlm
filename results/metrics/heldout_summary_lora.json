@@ -1,0 +1,22 @@
+{
+  "mode": "lora",
+  "n": 131,
+  "accuracy": 0.7709923664122137,
+  "balanced_accuracy": 0.5162968099861304,
+  "macro_f1": 0.4930340557275542,
+  "recall_crossing": 0.9611650485436893,
+  "recall_not_crossing": 0.07142857142857142,
+  "valid_json_rate": 1.0,
+  "unparsed": 0,
+  "majority_baseline_accuracy": 0.7862595419847328,
+  "latency_mean_ms": 2152.897709923664,
+  "latency_p95_ms": 2215.7,
+  "confusion": {
+    "Crossing->Crossing": 99,
+    "Crossing->Not Crossing": 4,
+    "Crossing->Unparsed": 0,
+    "Not Crossing->Crossing": 26,
+    "Not Crossing->Not Crossing": 2,
+    "Not Crossing->Unparsed": 0
+  }
+}

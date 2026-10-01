@@ -1,0 +1,1202 @@
+clip,truth,pred,correct,valid_json,latency_ms,raw_output
+video_0124_0_124_738b.mp4,Crossing,Crossing,True,False,1785.5,"```json
+{
+  ""pedestrian_demographics"": ""Pedestrians crossing the street"",
+  ""pedestrian_appearance"": ""People walking on the sidewalk"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic light"",
+  ""pedestrian_motion"": ""The pedestrian is moving towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the camera and the traffic light is green.""
+}
+```"
+video_0293_0_293_2273b.mp4,Crossing,Crossing,True,False,1477.9,"```json
+{
+  ""pedestrian_demographics"": ""People crossing the street"",
+  ""pedestrian_appearance"": ""Individuals walking"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic light and the designated crosswalk."",
+  ""pedestrian_motion"": ""The pedestrian is moving towards the crosswalk."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the designated crosswalk and paying attention to the traffic light.""
+}
+```"
+video_0307_0_307_2390b.mp4,Crossing,Crossing,True,False,1275.3,"{""pedestrian_demographics"": ""A pedestrian is crossing the street"", ""pedestrian_appearance"": ""A person wearing a hat"", ""pedestrian_attention"": ""The pedestrian is looking towards the camera"", ""pedestrian_motion"": ""The pedestrian is walking towards the camera"", ""intent"": ""Crossing"", ""confidence_score"": <float>, ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and the direction they are facing towards the camera.""}"
+video_0002_0_2_6b.mp4,Crossing,Crossing,True,False,1480.7,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is walking towards the camera."",
+  ""pedestrian_appearance"": ""The pedestrian is wearing a coat and carrying a bag."",
+  ""pedestrian_attention"": ""The pedestrian appears to be paying attention to their surroundings."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the designated crosswalk, as indicated by the sign above the entrance.""
+}
+```"
+video_0324_0_324_2562b.mp4,Crossing,Crossing,True,False,1422.4,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""A pedestrian is visible in the video"",
+  ""pedestrian_attention"": ""The pedestrian appears to be paying attention to the traffic light"",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street based on their motion and attention towards the traffic light.""
+}
+```"
+video_0111_0_111_622b.mp4,Crossing,Not Crossing,False,True,1161.1,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0251_0_251_1963b.mp4,Crossing,Crossing,True,True,1543.8,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street."",
+  ""pedestrian_appearance"": ""The pedestrian is wearing a brown coat and appears to be walking."",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic light and the road."",
+  ""pedestrian_motion"": ""The pedestrian is moving towards the crosswalk."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 1.0,
+  ""reasoning"": ""The pedestrian is likely crossing the street to reach the other side of the road.""
+}
+```"
+video_0340_0_340_2651b.mp4,Not Crossing,Not Crossing,True,True,1022.4,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the street.""}"
+video_0345_0_345_2700b.mp4,Crossing,Crossing,True,False,1507.2,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""A pedestrian is visible in the video"",
+  ""pedestrian_attention"": ""The pedestrian appears to be paying attention to the traffic"",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the camera and appear to be paying attention to the traffic.""
+}
+```"
+video_0331_0_331_2605b.mp4,Crossing,Crossing,True,True,1397.7,"```json
+{
+  ""pedestrian_demographics"": ""People walking on a snowy street"",
+  ""pedestrian_appearance"": ""Dressed in winter clothing"",
+  ""pedestrian_attention"": ""Looking towards the camera"",
+  ""pedestrian_motion"": ""Walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 0.95,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the camera and the traffic light is red.""
+}
+```"
+video_0314_0_314_2475b.mp4,Not Crossing,Crossing,False,False,1527.3,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street."",
+  ""pedestrian_appearance"": ""The pedestrian is wearing a white shirt and dark pants."",
+  ""pedestrian_attention"": ""The pedestrian is looking towards the camera."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the intersection."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion towards the intersection and their attention towards the camera.""
+}
+```"
+video_0083_0_83_447b.mp4,Crossing,Not Crossing,False,False,3063.9,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the street. The pedestrian's motion is not visible in the video. The pedestrian's intent is not visible in the video. The pedestrian's demographics are not visible in the video. The pedestrian's appearance is not visible in the video. The pedestrian's motion is not visible in the video. The pedestrian's intent is not visible in the video. The pedestrian's demographics are not visible in the video. The pedestrian's appearance is not visible in the video. The pedestrian's motion is not visible in the video. The pedestrian's intent is not visible in the video. The pedestrian's demographics are not visible in the video. The pedestrian's appearance is not visible in the video. The pedestrian's motion is not visible in the video. The pedestrian's intent is not visible in the video. The pedestrian's demographics are not visible in the video. The pedestrian's appearance is not visible in the video. The pedestrian"
+video_0005_0_5_12b.mp4,Not Crossing,Not Crossing,True,True,1241.9,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided."",
+  ""pedestrian_appearance"": ""Wearing winter clothing."",
+  ""pedestrian_attention"": ""Not paying attention."",
+  ""pedestrian_motion"": ""Walking towards the building."",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The pedestrian is not crossing the street, as they are walking towards the building.""
+}
+```"
+video_0152_0_152_1018b.mp4,Not Crossing,Crossing,False,False,1424.0,"```json
+{
+  ""pedestrian_demographics"": ""People crossing the street"",
+  ""pedestrian_appearance"": ""Adults and children"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic light and the car in front."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the car."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the car in front of the vehicle.""
+}
+```"
+video_0270_0_270_2139b.mp4,Not Crossing,Not Crossing,True,True,1150.1,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0224_0_224_1680b.mp4,Crossing,Not Crossing,False,True,1041.4,"{""pedestrian_demographics"": ""No pedestrians visible."", ""pedestrian_appearance"": ""No pedestrians visible."", ""pedestrian_attention"": ""No pedestrians visible."", ""pedestrian_motion"": ""No pedestrians visible."", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the designated crosswalk.""}"
+video_0225_0_225_1690b.mp4,Crossing,Not Crossing,False,True,1131.3,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0055_0_55_254b.mp4,Not Crossing,Not Crossing,True,True,1149.9,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the road.""
+}
+```"
+video_0331_0_331_2597b.mp4,Crossing,Crossing,True,False,1335.3,"```json
+{
+  ""pedestrian_demographics"": ""People walking on a snowy street"",
+  ""pedestrian_appearance"": ""Dressed in winter clothing"",
+  ""pedestrian_attention"": ""Looking towards the camera"",
+  ""pedestrian_motion"": ""Walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the camera and appear to be in motion.""
+}
+```"
+video_0331_0_331_2603b.mp4,Crossing,Crossing,True,True,1332.6,"```json
+{
+  ""pedestrian_demographics"": ""People crossing the street"",
+  ""pedestrian_appearance"": ""Wearing winter clothing"",
+  ""pedestrian_attention"": ""Looking towards the camera"",
+  ""pedestrian_motion"": ""Walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 1.0,
+  ""reasoning"": ""The pedestrian is likely crossing the street, as they are walking towards the camera and not facing the camera.""
+}
+```"
+video_0109_0_109_608b.mp4,Crossing,Not Crossing,False,True,1190.7,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0080_0_80_428b.mp4,Crossing,Not Crossing,False,True,1345.4,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the street. The pedestrian is not visible in the frame. The traffic light is not visible, and there is no indication of pedestrians in the scene.""}"
+video_0037_0_37_168b.mp4,Not Crossing,Not Crossing,True,True,1155.4,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0067_0_67_311b.mp4,Crossing,Not Crossing,False,True,1152.3,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0290_0_290_2244b.mp4,Crossing,Not Crossing,False,True,1166.2,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0297_0_297_2297b.mp4,Crossing,Crossing,True,True,1246.2,"```json
+{
+  ""pedestrian_demographics"": ""People walking on the street"",
+  ""pedestrian_appearance"": ""Dressed in winter clothing"",
+  ""pedestrian_attention"": ""Looking towards the camera"",
+  ""pedestrian_motion"": ""Walking"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 1.0,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the camera.""
+}
+```"
+video_0100_0_100_554b.mp4,Crossing,Crossing,True,False,1402.0,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street in the rain."",
+  ""pedestrian_appearance"": ""The pedestrian is wearing a bright orange outfit."",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street to reach the other side of the road.""
+}
+```"
+video_0313_0_313_2457b.mp4,Crossing,Crossing,True,False,1405.0,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street."",
+  ""pedestrian_appearance"": ""The pedestrian is wearing dark clothing."",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic light."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the intersection."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street to reach the other side of the road.""
+}
+```"
+video_0332_0_332_2607b.mp4,Crossing,Not Crossing,False,True,1143.3,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""No pedestrians visible, no intent to cross""
+}
+```"
+video_0234_0_234_1804b.mp4,Crossing,Crossing,True,False,1486.1,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street."",
+  ""pedestrian_appearance"": ""The pedestrian is wearing a red coat."",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic light."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the camera and the traffic light is not visible in the video.""
+}
+```"
+video_0248_0_248_1910b.mp4,Crossing,Not Crossing,False,True,1000.8,"{""pedestrian_demographics"": ""No pedestrians visible."", ""pedestrian_appearance"": ""No pedestrians visible."", ""pedestrian_attention"": ""No pedestrians visible."", ""pedestrian_motion"": ""No pedestrians visible."", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the street.""}"
+video_0159_0_159_1076b.mp4,Crossing,Crossing,True,True,1257.4,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""Wearing dark clothing"",
+  ""pedestrian_attention"": ""Not paying attention"",
+  ""pedestrian_motion"": ""Walking"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 0.8,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and the direction they are facing.""
+}
+```"
+video_0306_0_306_2385b.mp4,Crossing,Not Crossing,False,True,1030.3,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the street.""}"
+video_0151_0_151_987b.mp4,Crossing,Not Crossing,False,True,1150.5,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0342_0_342_2685b.mp4,Not Crossing,Not Crossing,True,True,1929.1,"{""pedestrian_demographics"": ""No pedestrians visible."", ""pedestrian_appearance"": ""No pedestrians visible."", ""pedestrian_attention"": ""No pedestrians visible."", ""pedestrian_motion"": ""No pedestrians visible."", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the street. The pedestrian motion is not visible in the video. The pedestrian attention is not visible in the video. The pedestrian demographics are not visible in the video. The pedestrian appearance is not visible in the video. The pedestrian motion is not visible in the video. The intent is not visible in the video. The confidence score is 0.0, indicating that the pedestrian is not visible in the video.""}"
+video_0161_0_161_1091b.mp4,Crossing,Not Crossing,False,True,1185.5,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""No pedestrians visible, no pedestrian motion detected, no pedestrian attention""
+}
+```"
+video_0103_0_103_572b.mp4,Crossing,Not Crossing,False,True,1125.7,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 1.0, ""reasoning"": ""The video does not show any pedestrians crossing the street, so the pedestrian's intent cannot be determined.""}"
+video_0266_0_266_2079b.mp4,Crossing,Not Crossing,False,True,1155.1,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0232_0_232_1771b.mp4,Crossing,Not Crossing,False,True,1117.9,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the street. The pedestrian is not visible in the frame.""}"
+video_0293_0_293_2284b.mp4,Crossing,Crossing,True,True,1335.4,"```json
+{
+  ""pedestrian_demographics"": ""Two women crossing the street"",
+  ""pedestrian_appearance"": ""Wearing casual clothing"",
+  ""pedestrian_attention"": ""Looking both ways"",
+  ""pedestrian_motion"": ""Walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 0.95,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the camera and looking both ways.""
+}
+```"
+video_0138_0_138_859b.mp4,Crossing,Crossing,True,False,1511.4,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""A pedestrian is visible, wearing a hoodie and carrying a bag"",
+  ""pedestrian_attention"": ""The pedestrian appears to be paying attention to the traffic"",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the camera and appear to be paying attention to the traffic.""
+}
+```"
+video_0190_0_190_1365b.mp4,Crossing,Crossing,True,True,1474.6,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street."",
+  ""pedestrian_appearance"": ""The pedestrian is wearing a light-colored jacket and a hat."",
+  ""pedestrian_attention"": ""The pedestrian appears to be paying attention to the traffic light."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the intersection."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 0.95,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the intersection.""
+}
+```"
+video_0137_0_137_847b.mp4,Crossing,Crossing,True,False,1427.8,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""Wearing a coat and carrying an umbrella"",
+  ""pedestrian_attention"": ""Looking towards the camera"",
+  ""pedestrian_motion"": ""Walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the camera and carrying an umbrella, which is a common action for pedestrians crossing the street.""
+}
+```"
+video_0056_0_56_255b.mp4,Crossing,Crossing,True,False,1366.5,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""A pedestrian is visible in the video"",
+  ""pedestrian_attention"": ""The pedestrian appears to be crossing the street"",
+  ""pedestrian_motion"": ""The pedestrian is in motion"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and the direction they are facing.""
+}
+```"
+video_0164_0_164_1127b.mp4,Crossing,Crossing,True,False,1393.5,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street."",
+  ""pedestrian_appearance"": ""The pedestrian is wearing a green jacket."",
+  ""pedestrian_attention"": ""The pedestrian is looking towards the camera."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and the direction they are facing.""
+}
+```"
+video_0234_0_234_1800b.mp4,Crossing,Not Crossing,False,True,1148.5,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0191_0_191_1399b.mp4,Crossing,Not Crossing,False,True,1140.4,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0340_0_340_2656b.mp4,Crossing,Crossing,True,False,1423.5,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street."",
+  ""pedestrian_appearance"": ""The pedestrian is wearing a hat and carrying a bag."",
+  ""pedestrian_attention"": ""The pedestrian is looking towards the camera."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and the direction they are facing.""
+}
+```"
+video_0144_0_144_909b.mp4,Crossing,Crossing,True,False,1459.2,"```json
+{
+  ""pedestrian_demographics"": ""People crossing the street"",
+  ""pedestrian_appearance"": ""Individuals walking"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic light and crossing the street"",
+  ""pedestrian_motion"": ""The pedestrian is moving towards the crosswalk"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion towards the crosswalk and their attention to the traffic light.""
+}
+```"
+video_0047_0_47_214b.mp4,Crossing,Not Crossing,False,True,1151.5,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the crosswalk.""
+}
+```"
+video_0196_0_196_1443b.mp4,Crossing,Not Crossing,False,True,1144.1,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0139_0_139_865b.mp4,Crossing,Not Crossing,False,True,1006.1,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the street.""}"
+video_0311_0_311_2442b.mp4,Crossing,Crossing,True,False,1438.3,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""A pedestrian is crossing the street"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic light"",
+  ""pedestrian_motion"": ""The pedestrian is moving towards the crosswalk"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion towards the crosswalk and their attention to the traffic light.""
+}
+```"
+video_0165_0_165_1140b.mp4,Crossing,Not Crossing,False,True,1155.2,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0223_0_223_1664b.mp4,Crossing,Crossing,True,False,1508.6,"```json
+{
+  ""pedestrian_demographics"": ""The pedestrian is a woman wearing a coat and a hat."",
+  ""pedestrian_appearance"": ""The pedestrian is walking towards the camera."",
+  ""pedestrian_attention"": ""The pedestrian appears to be paying attention to the traffic light."",
+  ""pedestrian_motion"": ""The pedestrian is moving towards the camera."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as the traffic light is red and the pedestrian is moving towards the camera.""
+}
+```"
+video_0267_0_267_2093b.mp4,Crossing,Not Crossing,False,False,3064.4,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame"
+video_0114_0_114_646b.mp4,Crossing,Not Crossing,False,True,1172.9,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""No pedestrians visible, no pedestrian motion detected, no pedestrian attention""
+}
+```"
+video_0344_0_344_2692b.mp4,Not Crossing,Crossing,False,False,1393.7,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""A pedestrian in a white jacket and red pants"",
+  ""pedestrian_attention"": ""The pedestrian is looking towards the camera"",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are looking towards the camera and moving towards the camera.""
+}
+```"
+video_0305_0_305_2363b.mp4,Not Crossing,Crossing,False,False,1453.3,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street."",
+  ""pedestrian_appearance"": ""The pedestrian is wearing a hat and carrying a bag."",
+  ""pedestrian_attention"": ""The pedestrian is looking towards the camera."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and the fact that they are crossing the street.""
+}
+```"
+video_0120_0_120_701b.mp4,Crossing,Not Crossing,False,True,1151.0,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0061_0_61_271b.mp4,Crossing,Not Crossing,False,True,1248.9,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""Dressed in casual clothing"",
+  ""pedestrian_attention"": ""Not paying attention"",
+  ""pedestrian_motion"": ""Walking"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The pedestrian is not crossing the street, as indicated by their motion and lack of attention.""
+}
+```"
+video_0163_0_163_1103b.mp4,Crossing,Not Crossing,False,True,1155.4,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0136_0_136_846b.mp4,Crossing,Not Crossing,False,True,1155.6,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0213_0_213_1549b.mp4,Crossing,Crossing,True,False,1323.4,"```json
+{
+  ""pedestrian_demographics"": ""Two elderly individuals walking on a street"",
+  ""pedestrian_appearance"": ""Dressed in dark clothing and hats"",
+  ""pedestrian_attention"": ""Looking towards the camera"",
+  ""pedestrian_motion"": ""Walking"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the camera and appear to be in motion.""
+}
+```"
+video_0221_0_221_1634b.mp4,Not Crossing,Crossing,False,True,1296.0,"```json
+{
+  ""pedestrian_demographics"": ""People crossing the street"",
+  ""pedestrian_appearance"": ""Dressed in casual clothing"",
+  ""pedestrian_attention"": ""Looking towards the camera"",
+  ""pedestrian_motion"": ""Walking"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 1.0,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and the direction they are facing.""
+}
+```"
+video_0114_0_114_651b.mp4,Crossing,Not Crossing,False,True,1194.2,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0221_0_221_1636b.mp4,Crossing,Crossing,True,False,1424.8,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""A pedestrian is crossing the street"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic"",
+  ""pedestrian_motion"": ""The pedestrian is moving towards the crosswalk"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion towards the crosswalk and their attention to the traffic.""
+}
+```"
+video_0264_0_264_2058b.mp4,Not Crossing,Not Crossing,True,True,1133.2,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 1.0, ""reasoning"": ""The video does not show any pedestrians crossing the street, so it is not possible to determine their intent.""}"
+video_0331_0_331_2599b.mp4,Not Crossing,Crossing,False,True,1316.8,"```json
+{
+  ""pedestrian_demographics"": ""People crossing the street"",
+  ""pedestrian_appearance"": ""Wearing winter clothing"",
+  ""pedestrian_attention"": ""Looking towards the camera"",
+  ""pedestrian_motion"": ""Walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 1.0,
+  ""reasoning"": ""The pedestrian is likely crossing the street, as indicated by their motion and the direction they are facing.""
+}
+```"
+video_0336_0_336_2630b.mp4,Not Crossing,Crossing,False,False,1382.0,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""A pedestrian is crossing the street"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic"",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and attention towards the traffic.""
+}
+```"
+video_0076_0_76_403b.mp4,Crossing,Not Crossing,False,True,1176.1,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""No pedestrians visible, no traffic light, no designated crosswalk""
+}
+```"
+video_0336_0_336_2625b.mp4,Crossing,Crossing,True,False,1466.0,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street"",
+  ""pedestrian_appearance"": ""The pedestrian is wearing a coat and hat"",
+  ""pedestrian_attention"": ""The pedestrian is looking towards the camera"",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and the direction they are facing towards the camera.""
+}
+```"
+video_0064_0_64_303b.mp4,Not Crossing,Not Crossing,True,True,1440.5,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""A pedestrian is visible, but their appearance is not described."",
+  ""pedestrian_attention"": ""The pedestrian is not actively crossing the street."",
+  ""pedestrian_motion"": ""The pedestrian is not in motion."",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The pedestrian is not crossing the street, and their motion is not described.""
+}
+```"
+video_0177_0_177_1268b.mp4,Crossing,Not Crossing,False,True,1977.3,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the street. The pedestrian motion is not visible in the video. The pedestrian attention is not visible in the video. The pedestrian demographics are not visible in the video. The pedestrian appearance is not visible in the video. The pedestrian motion is not visible in the video. The intent is not visible in the video. The confidence score is 0.0, indicating that the pedestrian is not visible in the video.""}"
+video_0144_0_144_910b.mp4,Crossing,Crossing,True,False,1312.8,"```json
+{
+  ""pedestrian_demographics"": ""Two pedestrians crossing the street"",
+  ""pedestrian_appearance"": ""Wearing winter clothing"",
+  ""pedestrian_attention"": ""Looking towards the camera"",
+  ""pedestrian_motion"": ""Walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and the designated crosswalk.""
+}
+```"
+video_0032_0_32_156b.mp4,Crossing,Crossing,True,False,1418.7,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""A pedestrian is walking towards the camera"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the camera"",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the camera and not facing the camera.""
+}
+```"
+video_0059_0_59_260b.mp4,Not Crossing,Crossing,False,True,1295.5,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics"",
+  ""pedestrian_appearance"": ""Wearing a coat"",
+  ""pedestrian_attention"": ""Not paying attention"",
+  ""pedestrian_motion"": ""Walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 0.8,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the camera and not paying attention to the traffic light.""
+}
+```"
+video_0132_0_132_786b.mp4,Crossing,Not Crossing,False,False,3014.5,"{""pedestrian_demographics"": ""No pedestrians visible."", ""pedestrian_appearance"": ""No pedestrians visible."", ""pedestrian_attention"": ""No pedestrians visible."", ""pedestrian_motion"": ""No pedestrians visible."", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame. The pedestrian is not crossing the street. The pedestrian is not visible in the frame"
+video_0317_0_317_2500b.mp4,Crossing,Crossing,True,False,1460.8,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street"",
+  ""pedestrian_appearance"": ""A pedestrian is walking on the sidewalk"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic"",
+  ""pedestrian_motion"": ""The pedestrian is moving towards the crosswalk"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion towards the crosswalk and their attention to the traffic.""
+}
+```"
+video_0217_0_217_1597b.mp4,Crossing,Crossing,True,False,1301.8,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""Wearing a suit and tie"",
+  ""pedestrian_attention"": ""Looking towards the camera"",
+  ""pedestrian_motion"": ""Walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the camera and not facing the traffic light.""
+}
+```"
+video_0178_0_178_1282b.mp4,Crossing,Crossing,True,False,1584.5,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street with an umbrella."",
+  ""pedestrian_appearance"": ""The pedestrian is wearing casual clothing and carrying an umbrella."",
+  ""pedestrian_attention"": ""The pedestrian appears to be paying attention to their surroundings."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street due to the presence of the designated crosswalk and the pedestrian's motion towards the camera.""
+}
+```"
+video_0310_0_310_2424b.mp4,Crossing,Crossing,True,False,1387.4,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street"",
+  ""pedestrian_appearance"": ""A person wearing a red jacket"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic"",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the intersection"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and attention towards the intersection.""
+}
+```"
+video_0063_0_63_292b.mp4,Crossing,Crossing,True,True,1280.5,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""Dressed in casual clothing"",
+  ""pedestrian_attention"": ""Not paying attention"",
+  ""pedestrian_motion"": ""Walking"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The pedestrian is not crossing the street, as they are walking and not paying attention to the traffic light.""
+}
+```"
+video_0223_0_223_1669b.mp4,Crossing,Crossing,True,True,1456.0,"```json
+{
+  ""pedestrian_demographics"": ""People crossing the street"",
+  ""pedestrian_appearance"": ""Wearing coats and carrying umbrellas"",
+  ""pedestrian_attention"": ""Looking towards the camera"",
+  ""pedestrian_motion"": ""Walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 0.95,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the camera and wearing coats and carrying umbrellas, which are common actions taken by pedestrians crossing the street.""
+}
+```"
+video_0092_0_92_509b.mp4,Crossing,Crossing,True,True,1303.9,"```json
+{
+  ""pedestrian_demographics"": ""Two women crossing the street"",
+  ""pedestrian_appearance"": ""Wearing winter coats"",
+  ""pedestrian_attention"": ""Directly in front of the camera"",
+  ""pedestrian_motion"": ""Walking"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 1.0,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and the direction they are facing.""
+}
+```"
+video_0305_0_305_2373b.mp4,Not Crossing,Crossing,False,False,1422.7,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street."",
+  ""pedestrian_appearance"": ""The pedestrian is wearing a coat and carrying a bag."",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic light."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the intersection."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the intersection.""
+}
+```"
+video_0266_0_266_2087b.mp4,Crossing,Crossing,True,False,1349.4,"```json
+{
+  ""pedestrian_demographics"": ""People crossing the street"",
+  ""pedestrian_appearance"": ""Dressed in winter clothing"",
+  ""pedestrian_attention"": ""Looking towards the camera"",
+  ""pedestrian_motion"": ""Walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion towards the camera and their attention towards the camera.""
+}
+```"
+video_0031_0_31_155b.mp4,Crossing,Crossing,True,False,1377.7,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""A pedestrian is walking on the crosswalk"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic light"",
+  ""pedestrian_motion"": ""The pedestrian is crossing the street"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and the traffic light""
+}
+```"
+video_0160_0_160_1085b.mp4,Crossing,Not Crossing,False,True,1025.2,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the street.""}"
+video_0208_0_208_1502b.mp4,Not Crossing,Crossing,False,False,1420.5,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street"",
+  ""pedestrian_appearance"": ""A person is visible in the video"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic"",
+  ""pedestrian_motion"": ""The pedestrian is moving towards the street"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are visible in the video and are moving towards the street.""
+}
+```"
+video_0215_0_215_1572b.mp4,Crossing,Not Crossing,False,True,1130.8,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 1.0, ""reasoning"": ""The video does not show any pedestrians crossing the street, so the pedestrian's intent cannot be determined.""}"
+video_0071_0_71_365b.mp4,Crossing,Crossing,True,False,1597.7,"```json
+{
+  ""pedestrian_demographics"": ""A woman with blonde hair wearing a coat and a hat."",
+  ""pedestrian_appearance"": ""She is walking towards the camera."",
+  ""pedestrian_attention"": ""She appears to be paying attention to her surroundings."",
+  ""pedestrian_motion"": ""She is walking on the crosswalk."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as she is walking towards the camera and appears to be paying attention to her surroundings.""
+}
+```"
+video_0224_0_224_1683b.mp4,Crossing,Not Crossing,False,True,1164.8,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the designated crosswalk.""
+}
+```"
+video_0068_0_68_329b.mp4,Not Crossing,Not Crossing,True,True,1135.2,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0342_0_342_2686b.mp4,Not Crossing,Not Crossing,True,True,1917.0,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the street. The pedestrian motion is not visible in the video. The pedestrian attention is not visible in the video. The pedestrian demographics are not visible in the video. The pedestrian appearance is not visible in the video. The pedestrian motion is not visible in the video. The intent is not visible in the video. The confidence score is 0.0, indicating that the pedestrian is not visible in the video.""}"
+video_0204_0_204_1486b.mp4,Not Crossing,Crossing,False,False,1468.6,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street"",
+  ""pedestrian_appearance"": ""A person is walking on the sidewalk"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic light"",
+  ""pedestrian_motion"": ""The pedestrian is moving towards the intersection"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the intersection and the traffic light is green.""
+}
+```"
+video_0138_0_138_858b.mp4,Crossing,Crossing,True,True,1323.1,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""Walking towards the road"",
+  ""pedestrian_attention"": ""Not paying attention"",
+  ""pedestrian_motion"": ""Walking towards the road"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 0.85,
+  ""reasoning"": ""The pedestrian is likely crossing the road as they are walking towards the road and not paying attention to the traffic.""
+}
+```"
+video_0110_0_110_613b.mp4,Crossing,Crossing,True,True,1243.0,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""Wearing winter clothing"",
+  ""pedestrian_attention"": ""Not paying attention"",
+  ""pedestrian_motion"": ""Walking"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 0.5,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and the direction they are facing.""
+}
+```"
+video_0332_0_332_2609b.mp4,Crossing,Not Crossing,False,True,1131.0,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0206_0_206_1494b.mp4,Crossing,Crossing,True,False,1485.9,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""A pedestrian is crossing the street"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic"",
+  ""pedestrian_motion"": ""The pedestrian is moving towards the street"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion towards the street and their attention to the traffic.""
+}
+```"
+video_0340_0_340_2653b.mp4,Not Crossing,Crossing,False,False,1193.6,"{""pedestrian_demographics"": ""No specific demographics provided."", ""pedestrian_appearance"": ""Wearing a coat and hat."", ""pedestrian_attention"": ""Looking towards the car."", ""pedestrian_motion"": ""Walking towards the car."", ""intent"": ""Crossing"", ""confidence_score"": <float>, ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the car and not facing the car.""}"
+video_0112_0_112_631b.mp4,Crossing,Not Crossing,False,True,1140.7,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0005_0_5_19b.mp4,Not Crossing,Crossing,False,False,1205.0,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""Dressed in winter clothing"",
+  ""pedestrian_attention"": ""Not paying attention"",
+  ""pedestrian_motion"": ""Walking towards the building"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the building.""
+}
+```"
+video_0171_0_171_1200b.mp4,Not Crossing,Crossing,False,True,1408.2,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street."",
+  ""pedestrian_appearance"": ""The pedestrian is wearing a long coat."",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 1.0,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and attention towards the traffic.""
+}
+```"
+video_0324_0_324_2559b.mp4,Crossing,Crossing,True,False,1487.3,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""The pedestrian is wearing a red jacket and is walking towards the camera."",
+  ""pedestrian_attention"": ""The pedestrian appears to be paying attention to the camera."",
+  ""pedestrian_motion"": ""The pedestrian is walking on the sidewalk."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the camera and not facing the traffic light.""
+}
+```"
+video_0261_0_261_2018b.mp4,Crossing,Not Crossing,False,True,1027.9,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the street.""}"
+video_0140_0_140_868b.mp4,Crossing,Crossing,True,False,1483.8,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street."",
+  ""pedestrian_appearance"": ""The pedestrian is wearing a coat and has a backpack."",
+  ""pedestrian_attention"": ""The pedestrian is looking towards the camera."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and the fact that they are crossing the designated crosswalk.""
+}
+```"
+video_0244_0_244_1876b.mp4,Crossing,Crossing,True,False,1427.2,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is crossing the street."",
+  ""pedestrian_appearance"": ""The pedestrian is wearing a red jacket."",
+  ""pedestrian_attention"": ""The pedestrian is looking towards the camera."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the intersection."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion towards the intersection and their attention towards the camera.""
+}
+```"
+video_0341_0_341_2662b.mp4,Crossing,Crossing,True,False,1345.2,"```json
+{
+  ""pedestrian_demographics"": ""A pedestrian is pushing a cart with potatoes."",
+  ""pedestrian_appearance"": ""The pedestrian is wearing a blue coat."",
+  ""pedestrian_attention"": ""The pedestrian is looking towards the camera."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street to reach the other side of the road.""
+}
+```"
+video_0135_0_135_805b.mp4,Crossing,Crossing,True,False,1435.7,"```json
+{
+  ""pedestrian_demographics"": ""People crossing the street"",
+  ""pedestrian_appearance"": ""Individuals walking"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic light and the designated crosswalk."",
+  ""pedestrian_motion"": ""The pedestrian is moving towards the crosswalk."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the designated crosswalk and paying attention to the traffic light.""
+}
+```"
+video_0313_0_313_2469b.mp4,Crossing,Not Crossing,False,True,1153.0,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""No pedestrians visible, no pedestrian motion detected, no pedestrian attention""
+}
+```"
+video_0022_0_22_95b.mp4,Crossing,Not Crossing,False,True,1276.4,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the road, so the pedestrian's intent cannot be determined.""
+}
+```"
+video_0327_0_327_2573b.mp4,Not Crossing,Not Crossing,True,True,1144.1,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0297_0_297_2301b.mp4,Crossing,Crossing,True,False,1410.7,"```json
+{
+  ""pedestrian_demographics"": ""People walking on the street"",
+  ""pedestrian_appearance"": ""Individuals wearing casual clothing"",
+  ""pedestrian_attention"": ""The pedestrians are paying attention to their surroundings"",
+  ""pedestrian_motion"": ""The pedestrians are walking on the sidewalk"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrians are likely crossing the street, as they are walking on the sidewalk and not in the middle of the road.""
+}
+```"
+video_0146_0_146_947b.mp4,Crossing,Crossing,True,False,1416.3,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided."",
+  ""pedestrian_appearance"": ""A pedestrian is crossing the street."",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic."",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera."",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and attention towards the traffic.""
+}
+```"
+video_0139_0_139_861b.mp4,Crossing,Crossing,True,False,1492.7,"```json
+{
+  ""pedestrian_demographics"": ""A man in a camouflage jacket and sunglasses"",
+  ""pedestrian_appearance"": ""A pedestrian walking on the sidewalk"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic"",
+  ""pedestrian_motion"": ""The pedestrian is moving towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is likely crossing the street as they are walking towards the camera and appear to be paying attention to the traffic.""
+}
+```"
+video_0069_0_69_348b.mp4,Not Crossing,Not Crossing,True,True,1130.8,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 1.0, ""reasoning"": ""The video does not show any pedestrians crossing the street, so the pedestrian's intent cannot be determined.""}"
+video_0024_0_24_99b.mp4,Crossing,Not Crossing,False,True,1056.1,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the road at night.""}"
+video_0025_0_25_104b.mp4,Crossing,Not Crossing,False,False,1529.0,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""The pedestrian is wearing dark clothing and appears to be walking"",
+  ""pedestrian_attention"": ""The pedestrian is not paying attention to the car"",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the car"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is not crossing the road, and the car is accelerating, so it is likely that the pedestrian is not crossing the road.""
+}
+```"
+video_0245_0_245_1890b.mp4,Not Crossing,Not Crossing,True,True,1196.3,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0324_0_324_2561b.mp4,Crossing,Not Crossing,False,True,1263.1,"```json
+{
+  ""pedestrian_demographics"": ""Unknown"",
+  ""pedestrian_appearance"": ""Dressed in dark clothing"",
+  ""pedestrian_attention"": ""Not paying attention"",
+  ""pedestrian_motion"": ""Walking"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The pedestrian is not crossing the street, as they are walking and not paying attention to the traffic light.""
+}
+```"
+video_0067_0_67_323b.mp4,Crossing,Crossing,True,True,1277.3,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""Wearing a coat and carrying a bag"",
+  ""pedestrian_attention"": ""Not paying attention"",
+  ""pedestrian_motion"": ""Walking"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The pedestrian is not paying attention to the traffic light, indicating they are crossing the street.""
+}
+```"
+video_0309_0_309_2404b.mp4,Not Crossing,Not Crossing,True,True,1008.5,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": 0.0, ""reasoning"": ""The video does not show any pedestrians crossing the street.""}"
+video_0076_0_76_400b.mp4,Crossing,Crossing,True,False,1377.8,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""A pedestrian is crossing the street"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic"",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and attention towards the traffic.""
+}
+```"
+video_0101_0_101_559b.mp4,Crossing,Not Crossing,False,True,1154.6,"```json
+{
+  ""pedestrian_demographics"": ""No pedestrians visible"",
+  ""pedestrian_appearance"": ""No pedestrians visible"",
+  ""pedestrian_attention"": ""No pedestrians visible"",
+  ""pedestrian_motion"": ""No pedestrians visible"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The video does not show any pedestrians crossing the street.""
+}
+```"
+video_0143_0_143_881b.mp4,Crossing,Not Crossing,False,False,1097.4,"{""pedestrian_demographics"": ""No pedestrians visible"", ""pedestrian_appearance"": ""No pedestrians visible"", ""pedestrian_attention"": ""No pedestrians visible"", ""pedestrian_motion"": ""No pedestrians visible"", ""intent"": ""Not Crossing"", ""confidence_score"": <float>, ""reasoning"": ""The video does not show any pedestrians crossing the street, so the pedestrian's intent cannot be determined.""}"
+video_0150_0_150_967b.mp4,Crossing,Not Crossing,False,True,1320.8,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""Dressed in winter clothing"",
+  ""pedestrian_attention"": ""Not paying attention"",
+  ""pedestrian_motion"": ""Standing still"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.0,
+  ""reasoning"": ""The pedestrian is not crossing the street, as they are standing still and not paying attention to the traffic light.""
+}
+```"
+video_0169_0_169_1179b.mp4,Crossing,Crossing,True,False,1430.2,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""A pedestrian is crossing the street"",
+  ""pedestrian_attention"": ""The pedestrian is paying attention to the traffic"",
+  ""pedestrian_motion"": ""The pedestrian is moving towards the crosswalk"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion towards the crosswalk and their attention to the traffic.""
+}
+```"
+video_0020_0_20_86b.mp4,Crossing,Not Crossing,False,True,1275.3,"```json
+{
+  ""pedestrian_demographics"": ""A man wearing a winter coat"",
+  ""pedestrian_appearance"": ""Standing"",
+  ""pedestrian_attention"": ""Not paying attention"",
+  ""pedestrian_motion"": ""Standing"",
+  ""intent"": ""Not Crossing"",
+  ""confidence_score"": 0.8,
+  ""reasoning"": ""The pedestrian is not crossing the street, and their attention is not focused on the traffic light.""
+}
+```"
+video_0081_0_81_431b.mp4,Crossing,Crossing,True,True,1339.7,"```json
+{
+  ""pedestrian_demographics"": ""Two men crossing the street"",
+  ""pedestrian_appearance"": ""Wearing casual clothing"",
+  ""pedestrian_attention"": ""Directly in front of the ego-vehicle"",
+  ""pedestrian_motion"": ""Walking"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": 0.95,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and the direction they are facing.""
+}
+```"
+video_0346_0_346_2703b.mp4,Crossing,Crossing,True,False,1397.4,"```json
+{
+  ""pedestrian_demographics"": ""No specific demographics provided"",
+  ""pedestrian_appearance"": ""A pedestrian is visible in the video"",
+  ""pedestrian_attention"": ""The pedestrian appears to be crossing the street"",
+  ""pedestrian_motion"": ""The pedestrian is walking towards the camera"",
+  ""intent"": ""Crossing"",
+  ""confidence_score"": <float>,
+  ""reasoning"": ""The pedestrian is crossing the street, as indicated by their motion and the direction they are facing towards the camera.""
+}
+```"

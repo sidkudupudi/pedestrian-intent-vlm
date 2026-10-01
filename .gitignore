@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Datasets, weights and build artefacts (download / regenerate them, see README)
+data/
+datasets/
+/runs/
+weights/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.onnx.data
+*.engine
+*.trt
+*.plan
+*.safetensors
+*.bin
+*.npy
+*.npz
+*.pkl
+*.parquet
+*.zip
+*.tar.gz
+build/
+
+# Raw videos (small previews in results/media are tracked explicitly)
+*.mp4
+*.avi
+*.mkv
+!results/media/*.mp4
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# JAAD videos, generated clips, model weights and engines
+JAAD_clips/
+v2_training_clips/
+output_videos/
+models/
+qwen-pedestrian-intent-v2/
+annotations*/
+data_cache/

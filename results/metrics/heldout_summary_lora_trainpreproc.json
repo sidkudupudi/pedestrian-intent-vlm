@@ -1,0 +1,22 @@
+{
+  "mode": "lora_trainpreproc",
+  "n": 131,
+  "accuracy": 0.7557251908396947,
+  "balanced_accuracy": 0.5065880721220527,
+  "macro_f1": 0.48475909537856443,
+  "recall_crossing": 0.941747572815534,
+  "recall_not_crossing": 0.07142857142857142,
+  "valid_json_rate": 1.0,
+  "unparsed": 0,
+  "majority_baseline_accuracy": 0.7862595419847328,
+  "latency_mean_ms": 2288.593129770992,
+  "latency_p95_ms": 2350.45,
+  "confusion": {
+    "Crossing->Crossing": 97,
+    "Crossing->Not Crossing": 6,
+    "Crossing->Unparsed": 0,
+    "Not Crossing->Crossing": 26,
+    "Not Crossing->Not Crossing": 2,
+    "Not Crossing->Unparsed": 0
+  }
+}

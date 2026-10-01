@@ -1,0 +1,22 @@
+{
+  "mode": "base",
+  "n": 131,
+  "accuracy": 0.5343511450381679,
+  "balanced_accuracy": 0.5218446601941747,
+  "macro_f1": 0.4810027927518348,
+  "recall_crossing": 0.5436893203883495,
+  "recall_not_crossing": 0.5,
+  "valid_json_rate": 0.5648854961832062,
+  "unparsed": 0,
+  "majority_baseline_accuracy": 0.7862595419847328,
+  "latency_mean_ms": 1351.4335877862595,
+  "latency_p95_ms": 1691.6,
+  "confusion": {
+    "Crossing->Crossing": 56,
+    "Crossing->Not Crossing": 47,
+    "Crossing->Unparsed": 0,
+    "Not Crossing->Crossing": 14,
+    "Not Crossing->Not Crossing": 14,
+    "Not Crossing->Unparsed": 0
+  }
+}
