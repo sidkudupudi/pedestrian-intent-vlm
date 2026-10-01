@@ -5,7 +5,6 @@
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![Qwen2-VL](https://img.shields.io/badge/Qwen2--VL--2B-QLoRA-9cf.svg)](https://github.com/QwenLM/Qwen2-VL)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Evaluation](https://img.shields.io/badge/evaluation-honest%20held--out-orange.svg)](#results)
 
 Can a 2B-parameter vision-language model watch a dashcam clip and say whether a pedestrian is about to cross, with a structured explanation, inside a real-time driving loop? This project builds the whole chain and measures it honestly.
 
@@ -61,18 +60,7 @@ Fine-tuning taught the output **format** perfectly but **not the decision**. The
 
 Two held-out clips with the model's raw output — one of only two correct "Not Crossing" answers, and a typical error where the model defaults to "Crossing":
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/heldout_case_video_0005_0_5_12b.png" alt="Correct: Not Crossing" width="100%"/>
-<p align="center"><sub><strong>Correct</strong> — one of only two true-negative predictions.</sub></p>
-</td>
-<td width="50%" valign="top">
-<img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/heldout_case_video_0340_0_340_2651b.png" alt="Wrong: defaults to Crossing" width="100%"/>
-<p align="center"><sub><strong>Wrong</strong> — typical failure mode, defaults to "Crossing".</sub></p>
-</td>
-</tr>
-</table>
+<div align="center"> <img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/heldout_case_video_0005_0_5_12b.png" alt="Correct: Not Crossing" width="760"/> <p><sub><strong>Correct</strong> — one of only two true-negative predictions.</sub></p> </div> <div align="center"> <img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/heldout_case_video_0340_0_340_2651b.png" alt="Wrong: defaults to Crossing" width="760"/> <p><sub><strong>Wrong</strong> — typical failure mode, defaults to "Crossing".</sub></p> </div>
 
 **Real-time architecture (346 videos, 79,344 frames).**
 
