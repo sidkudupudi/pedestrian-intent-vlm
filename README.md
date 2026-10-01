@@ -55,7 +55,7 @@ Fine-tuning taught the output **format** perfectly but **not the decision**. The
 - **Weak targets.** The `confidence_score` is random (0.85–0.99) and the `reasoning` field is templated.
 
 <div align="center">
-<img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/heldout_evaluation.png" alt="Held-out evaluation" width="640"/>
+<img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/heldout_evaluation.png" alt="Held-out evaluation" width="760"/>
 </div>
 
 Two held-out clips with the model's raw output — one of only two correct "Not Crossing" answers, and a typical error where the model defaults to "Crossing":
