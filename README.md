@@ -5,6 +5,7 @@
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![Qwen2-VL](https://img.shields.io/badge/Qwen2--VL--2B-QLoRA-9cf.svg)](https://github.com/QwenLM/Qwen2-VL)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Evaluation](https://img.shields.io/badge/evaluation-honest%20held--out-orange.svg)](#results)
 
 Can a 2B-parameter vision-language model watch a dashcam clip and say whether a pedestrian is about to cross, with a structured explanation, inside a real-time driving loop? This project builds the whole chain and measures it honestly.
 
@@ -55,19 +56,19 @@ Fine-tuning taught the output **format** perfectly but **not the decision**. The
 - **Weak targets.** The `confidence_score` is random (0.85–0.99) and the `reasoning` field is templated.
 
 <div align="center">
-<img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/heldout_evaluation.png" alt="Held-out evaluation" width="760"/>
+<img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/heldout_evaluation.png" alt="Held-out evaluation" width="900"/>
 </div>
 
 Two held-out clips with the model's raw output — one of only two correct "Not Crossing" answers, and a typical error where the model defaults to "Crossing":
 
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
-<img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/heldout_case_video_0005_0_5_12b.png" alt="Correct: Not Crossing" width="420"/>
+<img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/heldout_case_video_0005_0_5_12b.png" alt="Correct: Not Crossing" width="100%"/>
 <p align="center"><sub><strong>Correct</strong> — one of only two true-negative predictions.</sub></p>
 </td>
 <td width="50%" valign="top">
-<img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/heldout_case_video_0340_0_340_2651b.png" alt="Wrong: defaults to Crossing" width="420"/>
+<img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/heldout_case_video_0340_0_340_2651b.png" alt="Wrong: defaults to Crossing" width="100%"/>
 <p align="center"><sub><strong>Wrong</strong> — typical failure mode, defaults to "Crossing".</sub></p>
 </td>
 </tr>
@@ -88,10 +89,21 @@ The VLM (p50 824ms per call) never blocks the tracker, but sharing the GPU infla
 
 ## How It Works
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/architecture-dark.svg">
-  <img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/architecture-light.svg" alt=" System architecture: offline training pipeline feeding an online real-time inference loop">
-</picture>
+```mermaid
+flowchart LR
+    subgraph Offline
+      J[JAAD XML annotations<br/>+ 346 videos] -->|build_intent_dataset.py| C[655 clips × 15 frames<br/>context prompt + JSON target]
+      C -->|524 / 131 split| T[QLoRA: Qwen2-VL-2B<br/>4-bit NF4, LoRA r=16]
+      T --> E[held-out eval<br/>vs base + majority baseline]
+    end
+    subgraph Online
+      F[dashcam frame] --> Y[YOLO11s tracker<br/>persist, person]
+      Y -->|new track ID & VLM idle| Q[queue maxsize=1]
+      Q --> V[VLM worker thread<br/>≤ 40 new tokens]
+      Y --> L[logger thread → CSV]
+      V --> L
+    end
+```
 
 ## Repository Layout
 
