@@ -63,11 +63,11 @@ Two held-out clips with the model's raw output — one of only two correct "Not 
 <table>
 <tr>
 <td width="50%" valign="top">
-<img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/heldout_case_video_0005_0_5_12b.png" alt="Correct: Not Crossing" width="100%"/>
+<img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/heldout_case_video_0005_0_5_12b.png" alt="Correct: Not Crossing" width="420"/>
 <p align="center"><sub><strong>Correct</strong> — one of only two true-negative predictions.</sub></p>
 </td>
 <td width="50%" valign="top">
-<img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/heldout_case_video_0340_0_340_2651b.png" alt="Wrong: defaults to Crossing" width="100%"/>
+<img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/heldout_case_video_0340_0_340_2651b.png" alt="Wrong: defaults to Crossing" width="420"/>
 <p align="center"><sub><strong>Wrong</strong> — typical failure mode, defaults to "Crossing".</sub></p>
 </td>
 </tr>
