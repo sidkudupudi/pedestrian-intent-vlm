@@ -5,7 +5,6 @@
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![Qwen2-VL](https://img.shields.io/badge/Qwen2--VL--2B-QLoRA-9cf.svg)](https://github.com/QwenLM/Qwen2-VL)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Evaluation](https://img.shields.io/badge/evaluation-honest%20held--out-orange.svg)](#results)
 
 Can a 2B-parameter vision-language model watch a dashcam clip and say whether a pedestrian is about to cross, with a structured explanation, inside a real-time driving loop? This project builds the whole chain and measures it honestly.
 
