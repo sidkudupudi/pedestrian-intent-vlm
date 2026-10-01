@@ -77,21 +77,10 @@ The VLM (p50 824ms per call) never blocks the tracker, but sharing the GPU infla
 
 ## How It Works
 
-```mermaid
-flowchart LR
-    subgraph Offline
-      J[JAAD XML annotations<br/>+ 346 videos] -->|build_intent_dataset.py| C[655 clips × 15 frames<br/>context prompt + JSON target]
-      C -->|524 / 131 split| T[QLoRA: Qwen2-VL-2B<br/>4-bit NF4, LoRA r=16]
-      T --> E[held-out eval<br/>vs base + majority baseline]
-    end
-    subgraph Online
-      F[dashcam frame] --> Y[YOLO11s tracker<br/>persist, person]
-      Y -->|new track ID & VLM idle| Q[queue maxsize=1]
-      Q --> V[VLM worker thread<br/>≤ 40 new tokens]
-      Y --> L[logger thread → CSV]
-      V --> L
-    end
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/architecture-dark.svg">
+  <img src="https://github.com/sidkudupudi/pedestrian-intent-vlm/raw/main/results/figures/architecture-light.svg" alt="System architecture: offline training pipeline feeding an online real-time inference loop">
+</picture>
 
 ## Repository Layout
 
